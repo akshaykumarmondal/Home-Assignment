@@ -1,0 +1,156 @@
+
+html{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Sizing the body for better accuracy */
+body{
+
+    min-width: 90vw;
+    border: 1px solid black;
+    /* margin: 20px auto; */
+    height: 100vh;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Sizing the body for better accuracy */
+
+
+
+/* Styling the header */
+.header-one{
+
+    border: 1px solid rgb(11, 11, 11);
+    background-color: #1a73e8;
+    color: white;
+}
+/* Styling the header */
+
+
+
+/* Providing flex to the ul list */
+.menu-list{
+
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+/* Providing flex to the ul list */
+
+
+
+/* Styling the list items of ul */
+.list-item{
+
+    /* border: 1px solid black; */
+    list-style: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+/* Styling the list items of ul */
+
+
+
+/* Styling the button container */
+.button-container{
+
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 25rem;
+}
+/* Styling the button container */
+
+
+
+
+/* Styling the two buttons inside button container */
+.color-btn{
+
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.view-button{
+
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Styling the two buttons inside button container */
+
+
+
+/* Controlling the visibility of header according to the buttons */
+.active.header-one{
+
+    visibility: hidden;
+}
+/* Controlling the visibility of header according to the buttons */
+
+
+
+/* Controlling the visibility of header2 according to the buttons */
+.active.header-two{
+
+    visibility: hidden;
+}
+/* Controlling the visibility of header2 according to the buttons */
+
+
+
+
+/* styling the second header which will appear after switch view */
+.header-two{
+
+    border: 1px solid black;
+    background-color: #1a73e8;
+    color: white;
+    position: absolute;
+    top: -1px;
+    width: 200px;
+    height: 100%;
+}
+/* styling the second header which will appear after switch view */
+
+
+
+/* Styling the menu-list of second header*/
+.menu-listtwo{
+
+    /* border: 1px solid black; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+/* Styling the menu-list of second header*/
+
+
+
+/* styling the second list of second menu */
+.list-itemtwo{
+
+    /* border: 1px solid black; */
+    list-style: none;
+    cursor: pointer;
+}
+/* styling the second list of second menu */
+
+
+
